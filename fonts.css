@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Merriweather;
+    src: url(./fonts/Merriweather-Bold.ttf);
+    font-weight: bold;
+}
+  
+@font-face {
+    font-family: Merriweather;
+    src: url(./fonts/Merriweather-Light.ttf);
+    font-weight: lighter;
+}
+  
+@font-face {
+    font-family: Merriweather;
+    src: url(./fonts/Merriweather-Regular.ttf);
+}
+  
+@font-face {
+    font-family: Monstserrat;
+    src: url(./fonts/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+  
+@font-face {
+    font-family: Monstserrat;
+    src: url(./fonts/Montserrat-Light.ttf);
+    font-weight: lighter;
+}
+  
+@font-face {
+    font-family: Monstserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+  
+@font-face {
+    font-family: Monstserrat;
+    src: url(./fonts/Montserrat-SemiBold.ttf);
+    font-weight: bold;
+}
+  
+@font-face {
+    font-family: Nunito;
+    src: url(./fonts/Nunito-Bold.ttf);
+    font-weight: bold;
+}
+  
+@font-face {
+    font-family: Nunito;
+    src: url(./fonts/Nunito-Regular.ttf);
+}
+  
+@font-face {
+    font-family: Nunito;
+    src: url(./fonts/Nunito-SemiBold.ttf);
+    font-weight: bold;
+}
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+      --font-title: 15px;
+    }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    *{
+      --font-title: 20px;
+    }
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    *{
+      --font-title: 30px;
+    }
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    *{
+      --font-title: 40px;
+    }
+}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    *{
+      --font-title: 45px;
+    }
+    
+}
+
+*{
+    --font-subtitle:35px;
+    --font-primary: 35px;
+    --font-primary-sm: 30px;
+    --font-secondary: 25px;
+    --font-secondary-sm: 10px;
+  
+    font-family: Nunito !important;
+}
+  
